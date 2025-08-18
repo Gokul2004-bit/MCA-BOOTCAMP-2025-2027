@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        background-color: lightblue;
+        text-align: center;
+        color: darkblue;
+        font-style:url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    }
+    .container {
+        font-style: 'Acme', sans-serif;
+        color: green;
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+</style>
+<body>
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');">
+    <h1> <em>college registration form</em></h1>
+    <br><hr>
+
+    <p>
+        <div="container">
+             <form id="user form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="date">date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="Gender">Gender:</label><br>
+            <input type="Gender" id="Gender" name="Gender" required><br><br>
+
+            <label for="course">Course:</label><br>
+            <select id="course" name="course">
+                <option value="bca">BCA</option>
+                <option value="mca">MCA</option>
+                <option value="bba">BBA</option>
+                <option value="mba">MBA</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+       
+            
+     </p>
+    
+</body>
+</html>
